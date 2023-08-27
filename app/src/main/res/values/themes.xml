@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.GbStopwatch" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.GbStopwatch" parent="Base.Theme.GbStopwatch" />
+</resources>
