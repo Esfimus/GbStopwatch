@@ -1,4 +1,4 @@
-package com.esfimus.gbstopwatch
+package com.esfimus.gbstopwatch.domain
 
 class TimeStampMillisecondsFormatter {
     fun format(timeStamp: Long): String {

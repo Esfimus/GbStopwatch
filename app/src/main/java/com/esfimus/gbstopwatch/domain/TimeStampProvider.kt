@@ -1,4 +1,4 @@
-package com.esfimus.gbstopwatch
+package com.esfimus.gbstopwatch.domain
 
 interface TimeStampProvider {
     fun getMilliseconds(): Long

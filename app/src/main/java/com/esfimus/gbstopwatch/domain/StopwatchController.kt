@@ -1,4 +1,4 @@
-package com.esfimus.gbstopwatch
+package com.esfimus.gbstopwatch.domain
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
@@ -15,6 +15,7 @@ class StopwatchController(
     private val stopwatchStateHolder: StopwatchStateHolder,
     private val scope: CoroutineScope
 ) {
+
     private var job: Job? = null
     private val mutableTicker = MutableStateFlow(DEFAULT_TIME)
     val ticker: StateFlow<String> = mutableTicker
@@ -52,6 +53,4 @@ class StopwatchController(
         stopJob()
         clearValue()
     }
-
-
 }

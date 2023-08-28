@@ -1,4 +1,4 @@
-package com.esfimus.gbstopwatch
+package com.esfimus.gbstopwatch.data
 
 sealed class StopwatchState {
 

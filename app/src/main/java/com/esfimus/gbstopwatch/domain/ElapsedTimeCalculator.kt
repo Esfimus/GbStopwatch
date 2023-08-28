@@ -1,4 +1,6 @@
-package com.esfimus.gbstopwatch
+package com.esfimus.gbstopwatch.domain
+
+import com.esfimus.gbstopwatch.data.StopwatchState
 
 class ElapsedTimeCalculator(private val timeStampProvider: TimeStampProvider) {
     fun calculate(state: StopwatchState.Running): Long {
